@@ -9,7 +9,7 @@ public class Taxed_Product_Codes {
 
         Scanner input= new Scanner(System.in);
 
-        out.println("Enter the tax-free price of the product ?: ");
+        out.println("Enter the tax-free price of the product : ");
         tax_free=input.nextDouble();
         
         new_price = tax_free+ (tax_free * 0.18);
