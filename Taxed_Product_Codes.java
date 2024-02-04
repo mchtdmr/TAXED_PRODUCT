@@ -4,13 +4,13 @@ public class Taxed_Product_Codes {
     
     public static void main(String[] args) {
         
-        int tax_free;
+        double tax_free;
         double new_price;
 
         Scanner input= new Scanner(System.in);
 
         out.println("Enter the tax-free price of the product ?: ");
-        tax_free=input.nextInt();
+        tax_free=input.nextDouble();
         
         new_price = tax_free+ (tax_free * 0.18);
         
